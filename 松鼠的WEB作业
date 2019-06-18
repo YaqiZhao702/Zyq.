@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<h1>信息管理与信息系统2017年度大一上学期课程表：</h1>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>fzs</title>
+    <style>
+        table,
+        td,
+
+        th {
+
+            border: 1px solid rgb(2, 128, 121);
+            height: 2px;
+            width: 2px;
+            box-shadow: 2px 3px 3px rgb(8, 153, 129);
+        }
+
+        th:hover {
+            position: relative;
+            top: 4px;
+            left: 5px
+        }
+
+        .cell {
+            height: 3em;
+            width: 3em;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <table style="width: 1000px; height: 500px;margin: 20px auto 50px;">
+
+        <tr>
+            <td rowspan="3">上午</td>
+            <th></th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+            <th>星期六</th>
+            <th>星期日</th>
+        </tr>
+
+        <tr>
+
+            <th>第一节(08:20-10:00)</th>
+            <th style="background-color:rgb(55, 226, 175)" onmousedown="mDown1(this)" onmouseup="mOut1(this)">
+                高级语言程序设计</th>
+               
+            <script>
+                
+                function mDown1(obj) 
+               
+               
+                {
+                    obj.innerHTML = "教室：图书馆机房1 <br>任课教师：褚易清   1-20周"
+                }
+
+                function mOut1(obj) {
+                    obj.innerHTML = "高级语言程序设计"
+                }
+            </script>
+            <th onmousedown="mDown2(this)" onmouseup="mOut2(this)" style="background-color:turquoise" ;>大学英语一级（A）</th>
+            <script>
+                function mDown2(obj) {
+
+                    obj.innerHTML = "教室：西区第一公共教学楼C221<br>任课教师:张蔚  1-20周";
+                }
+
+                function mOut2(obj) {
+
+                    obj.innerHTML = "大学英语一级（A）";
+                }
+            </script>
+            <th onmousedown="mDown3(this)" onmouseup="mOut3(this)" style="background-color:rgb(247, 104, 216)" ;>高等数学（理一1）</th>
+            <script>
+                function mDown3(obj) {
+
+                    obj.innerHTML = "教室：西区第一公共教学楼A111<br>任课教师：陈雅颂 1-20周（双周）";
+                }
+
+                function mOut3(obj) {
+
+                    obj.innerHTML = "高等数学（理一1）";
+                }
+            </script>
+            <th onmousedown="mDown4(this)" onmouseup="mOut4(this)" style="background-color:rgb(243, 120, 120)" ;>高等数学（理一1）</th>
+                <script>
+                    function mDown4(obj) {
+    
+                        obj.innerHTML = " 高等数学（理一1） 教室@西区第一公共教学楼A111 <br>任课教师：陈雅颂 1-20周";
+                    }
+    
+                    function mOut4(obj) {
+    
+                        obj.innerHTML = "高等数学（理一1）";
+                    }
+                </script>
+            <th  onmousedown="mDown5(this)" onmouseup="mOut5(this)" style="background-color:turquoise" ;>大学英语一级（A） </th>
+            <script>
+                function mDown5(obj) {
+
+                    obj.innerHTML = "教室@西区外语学院楼219<br>任课教师：张蔚";
+                }
+
+                function mOut5(obj) {
+
+                    obj.innerHTML = "大学英语一级（A）";
+                }
+            </script>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <th>第二节(10:20-12:00)</th>
+            <th onmousedown="mDown6(this)" onmouseup="mOut6(this)" style="background-color:rgb(250, 102, 159)" ;>高等数学（理一1） </th>
+            <script>
+                function mDown6(obj) {
+
+                    obj.innerHTML = "教室@西区第一公共教学楼A111 <br>任课教师：陈雅颂 1-20周";
+                }
+
+                function mOut6(obj) {
+
+                    obj.innerHTML = "高等数学（理一1）";
+                }
+            </script>
+            <th onmousedown="mDown7(this)" onmouseup="mOut7(this)" style="background-color:lightgrey" ;> </th>
+            <script>
+                function mDown7(obj) {
+
+                    obj.innerHTML = "";
+                }
+
+                function mOut7(obj) {
+
+                    obj.innerHTML = "";
+                }
+            </script>
+            <th onmousedown="mDown8(this)" onmouseup="mOut8(this)" style="background-color:rgb(183, 115, 218)" ;>管理学原理 </th>
+            <script>
+                function mDown8(obj) {
+
+                    obj.innerHTML = "教室@西区第一公共教学楼B205 <br>任课教师：徐莉 1-18周";
+                }
+
+                function mOut8(obj) {
+
+                    obj.innerHTML = "管理学原理";
+                }
+            </script>
+             <th onmousedown="mDown10(this)" onmouseup="mOut10(this)" style="background-color:rgb(192, 128, 230)" ;> 中国近代史纲要</th>
+             <script>
+                 function mDown10(obj) {
+ 
+                     obj.innerHTML = "教室@西区第一公共教学楼B116<br>任课教师：张俊峰 1-20周";
+                 }
+ 
+                 function mOut10(obj) {
+ 
+                     obj.innerHTML = "中国近代史纲要";
+                 }
+             </script>
+            <th onmousedown="mDown9(this)" onmouseup="mOut9(this)" style="background-color:rgb(80, 221, 151)" ;>高等数学（理一1）</th>
+            <script>
+                function mDown9(obj) {
+
+                    obj.innerHTML = " 教室@西区第一公共教学楼A111<br>任课教师：陈雅颂 1-20周";
+                }
+
+                function mOut9(obj) {
+
+                    obj.innerHTML = "高等数学（理一1）";
+                }
+            </script>
+            <th></th>
+            <th></th>
+
+        </tr>
+
+        <tr>
+            <td colspan="9" style=" text-align: center; ">午休</td>
+        </tr>
+        <tr>
+            <td rowspan="2">下午</td>
+
+            <th>第三节(14:00-15:40)</th>
+            <th onmousedown="mDown11(this)" onmouseup="mOut11(this)" style="background-color:rgb(18, 214, 123)" ;>管理学原理</th>
+            <script>
+                function mDown11(obj) {
+
+                    obj.innerHTML = "教室：西区第一公共教学楼B205<br>任课教师：徐莉 1-18周";
+                }
+
+                function mOut11(obj) {
+
+                    obj.innerHTML = "管理学原理";
+                }
+            </script>
+            <th onmousedown="mDown12(this)" onmouseup="mOut12(this)" style="background-color:rgb(141, 54, 76)" ;></th>
+            <script>
+                function mDown12(obj) {
+
+                    obj.innerHTML = "";
+                }
+
+                function mOut12(obj) {
+
+                    obj.innerHTML = "";
+                }
+            </script>
+            <th onmousedown="mDown13(this)" onmouseup="mOut13(this)" style="background-color:rgb(255, 153, 122)" ;>高级语言程序设计</th>
+            <script>
+                function mDown13(obj) {
+
+                    obj.innerHTML = "教室@西区第一公共教学楼A219 <br>任课教师：褚易清  1-20周;"
+                }
+
+                function mOut13(obj) {
+
+                    obj.innerHTML = "高级语言程序设计";
+                }
+            </script>
+            <th onmousedown="mDown14(this)" onmouseup="mOut14(this)" style="background-color:rgb(240, 166, 166)" ;>体育课</th>
+            <script>
+                function mDown14(obj) {
+
+                    obj.innerHTML = "教室@健身馆<br>任课教师：1-15周";
+                }
+
+                function mOut14(obj) {
+
+                    obj.innerHTML = "体育课";
+                }
+            </script>
+             <th onmousedown="mDown15(this)" onmouseup="mOut15(this)" style="background-color:rgb(146, 236, 93)" ;></th>
+             <script>
+                 function mDown15(obj) {
+ 
+                     obj.innerHTML = "";
+                 }
+ 
+                 
+             </script>
+            <th></th>
+            <th></th>
+        </tr>
+ ；
+        <tr>
+
+            <th>第四节(16:00-17:40)</th>
+            <th onmousedown="mDown16(this)" onmouseup="mOut16(this)" style="background-color:rgb(12, 128, 93)" ;></th> <script>
+                function mDown16(obj) {
+
+                    obj.innerHTML = "";
+                }
+
+                function mOut16(obj) {
+
+                    obj.innerHTML = "";
+                }
+            </script>
+            <th onmousedown="mDown17(this)" onmouseup="mOut17(this)" style="background-color:rgb(144, 95, 207)" ;></th>
+            <script>
+                function mDown17(obj) {
+
+                    obj.innerHTML = "";
+                }
+
+                function mOut17(obj) {
+
+                    obj.innerHTML = "";
+                }
+            </script>
+            <th></th>
+            <th onmousedown="mDown18(this)" onmouseup="mOut18(this)" style="background-color:rgb(255, 153, 122)" ;>高级语言程序设计</th>
+            <script>
+                function mDown18(obj) {
+
+                    obj.innerHTML = "教室@西区第一公共教学楼A219 <br>任课教师：褚易清  1-20周";
+                }
+
+                function mOut18(obj) {
+
+                    obj.innerHTML="高级语言程序设计"；
+                }
+            </script>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        
+        </tr>
+
+
+</body>
+
+</html>
